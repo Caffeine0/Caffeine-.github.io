@@ -5,14 +5,14 @@ header-img: img/home-bg.jpg
 email: ait6@vip.qq.com
 description: "| 这里是 @Sweetiey 的个人博客，与你一起发现更美的世界。"
 keyword: "sweetiey, Sweetiey甜甜,sweetiey甜甜的博客, Sweetiey Blog, 博客, 个人网站, 互联网"
-url: "https://ww.sweetiey.com/"              # your host, for absolute URL
+url: "https://blog.sweetiey.com/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
-RSS: false
+RSS: true
 # weibo_username:     huxpro
 # zhihu_username:     huxpro
 # github_username:    huxpro
@@ -107,7 +107,7 @@ friends: [
     #     href: "http://su.gallery/"
     # },{
         
-        title: "Hux",
-        href: "http://huangxuan.me/"
+       # title: "Hux",
+       # href: "http://huangxuan.me/"
     }
 ]

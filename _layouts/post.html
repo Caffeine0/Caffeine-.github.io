@@ -59,7 +59,29 @@ layout: default
                
                 {% endif %}
             </div>  
-<!-- Gitalk 评论 start  -->
+<!-<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+    <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+    // gitalk的主要参数
+        clientID: `373b3ad2d3bb7f290739`,
+        clientSecret: `10256ccd721e90b3362de93d9755a9ec76979c4e`,
+        repo: `https://caffeine0.github.io/`,
+        owner: 'Caffeine0',
+        admin: ['Caffeine0'],
+        id: '页面的唯一标识，gitalk会根据这个标识自动创建的issue的标签',
+    
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+<!-- Gitalk end -->- Gitalk 评论 start  -->
   <div id="gitalk-container"></div>
       <script type="text/javascript">
       var title = location.pathname.substr(0, 50);//截取路径的前50个字符作为标识符

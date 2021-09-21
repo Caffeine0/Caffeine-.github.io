@@ -1,10 +1,10 @@
 # Site settings
-title: Sweetiey Blog
-SEOTitle: Sweetiey甜甜的博客 | Sweetiey Blog
+title: Caffeine0 Blog
+SEOTitle: Caffeine00的博客 | Caffeine00 Blog
 header-img: img/home-bg.jpg
-email: ait6@vip.qq.com
-description: "| 这里是 @Sweetiey 的个人博客，与你一起发现更美的世界。"
-keyword: "sweetiey, Sweetiey甜甜,sweetiey甜甜的博客, Sweetiey Blog, 博客, 个人网站, 互联网"
+email: 2856728841@qq.com
+description: "| 这里是 @Caffeine00 的个人博客，与你一起发现更美的世界。"
+keyword: "Caffeine00, Caffeine00,Caffeine00的博客, Caffeine00 Blog, 博客, 个人网站, 互联网"
 url: "https://caffeine0.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -78,7 +78,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "sweetiey,甜甜.热爱软件逆向.硬件"
+sidebar-about-description: "Caffeine00.热爱软件逆向.硬件"
 sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
